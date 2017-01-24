@@ -36,6 +36,9 @@
                             <constraint firstAttribute="trailingMargin" secondItem="liQ-oJ-eBf" secondAttribute="trailing" id="rIO-nj-ZQr"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="dacooltableview" destination="liQ-oJ-eBf" id="Zcy-LU-Vmc"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
