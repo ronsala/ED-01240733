@@ -4,11 +4,16 @@
 //
 //  Created by RONALD SALA on 1/24/17.
 //  Copyright © 2017 RON SALA. All rights reserved.
+//  Class exercise for Nick Walter's "How to Make a Freaking iPhone App"
 //
 
 import UIKit
 
 class Definition1ViewController: UIViewController {
+    
+    
+    @IBOutlet weak var birthYearLabel: UILabel!
+    @IBOutlet weak var categoryLabel: UILabel!
     @IBOutlet weak var definitionLabel: UILabel!
     @IBOutlet weak var emojiLabel: UILabel!
     var emoji = "NO EMOJI"
@@ -22,9 +27,13 @@ class Definition1ViewController: UIViewController {
         
         if emoji == "😅" {
         definitionLabel.text = "Sweating from laughing!"
+            categoryLabel.text = "Category: Smiley"
+            birthYearLabel.text = "BirthYear: 2011"
         }
         if emoji == "🦊" {
             definitionLabel.text = "Fox running!"
+            categoryLabel.text = "Category: Animal"
+            birthYearLabel.text = "BirthYear: 2009"
         }
         if emoji == "🍌" {
             definitionLabel.text = "Slip and fall hazard!"
